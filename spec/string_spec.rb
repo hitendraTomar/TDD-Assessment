@@ -1,4 +1,5 @@
 # TDD using monkey patch for string_spec.rb
+require 'string.rb'
 
 RSpec.describe String do
   describe '#add_numbers' do

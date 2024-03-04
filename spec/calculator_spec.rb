@@ -1,4 +1,5 @@
 # TDD without monkey patch for calculator_spec.rb
+require 'calculator.rb'
 
 RSpec.describe Calculator do
   describe '#add_numbers' do
